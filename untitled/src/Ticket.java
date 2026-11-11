@@ -9,12 +9,4 @@ import lombok.NoArgsConstructor;
 public class Ticket {
     private String destination;
     private BigDecimal price;
-
-    public void Buying(BigDecimal amount) {
-        if (amount.compareTo(this.price) >= 0) {
-            System.out.println("Buying ticket to " + this.destination + " for " + this.price);
-        } else {
-            System.out.println("Not enough money to buy ticket to " + this.destination);
-        }
-    }
 }
