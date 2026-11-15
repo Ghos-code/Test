@@ -1,0 +1,5 @@
+JDK：25
+MAVEN：3.9.12
+profile:default
+已创建父子类模块
+错误处理:依赖冲突——>执行mvn dependency:tree查看依赖情况，使用exclustion去除有问题依赖
